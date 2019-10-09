@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Staatliches|Vollkorn&display=swap');
+
+// font-family: 'Vollkorn', serif;
+// font-family: 'Staatliches', cursive;
+// font-family: 'Roboto', sans-serif;
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    @media screen and (max-width: 480px){
+        justify-content: space-around;
+    }
+}
+app-card{
+    width: calc(50% - 7.5px);
+    @media screen and (max-width: 480px){
+        width: calc(100% - 30px);
+    }
+}

@@ -1,0 +1,4 @@
+<div class="banner-outer-cont" *ngIf="bannerData">
+        <img [src]="getImage(bannerData.name)" alt="{{bannerData.name}}">
+        <p class="banner-title">{{bannerData.title}}</p>
+</div>

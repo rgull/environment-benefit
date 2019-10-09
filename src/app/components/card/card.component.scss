@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Staatliches|Vollkorn&display=swap');
+
+// font-family: 'Vollkorn', serif;
+// font-family: 'Staatliches', cursive;
+// font-family: 'Roboto', sans-serif;
+.card{
+    background: #fff;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    margin-bottom: 15px;
+    .img{
+        height: 380px;
+        overflow: hidden;
+        @media screen and (max-width: 1024px){
+            height: 330px;
+        }
+        @media screen and (max-width: 768px){
+            height: 240px;
+        }
+        @media screen and (max-width: 640px){
+            height: 240px;
+        }
+        @media screen and (max-width: 480px){
+            height: 280px;
+        }
+        @media screen and (max-width: 414px){
+            height: 244px;
+        }
+        @media screen and (max-width: 375px){
+            height: 215px;
+        }
+        @media screen and (max-width: 360px){
+            height: 208px;
+        }
+        @media screen and (max-width: 320px){
+            height: 180px;
+        }
+        img{
+            width: 100%;
+        }
+        position: relative;
+        h3{
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            font-family: 'Staatliches', cursive;
+            font-size: 22px;
+            padding: 0px 15px;
+            position: absolute;
+            bottom:  10px;
+            left: 10px;
+            display: inline-block;
+        }
+        .btn-cont{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            background: #0B8D37;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            border: 0px;
+            outline: none;
+            border-radius: 5px;
+        }
+        span{
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            font-family: 'Staatliches', cursive;
+            font-size: 22px;
+            padding: 0px 15px;
+            display: inline-block;
+            margin-top: 5px;
+            border-radius: 3px;
+        }
+    }
+    .content{
+        padding: 10px;
+        h2{
+            font-family: 'Vollkorn', serif;
+            font-size: 18px;
+            color: #D63269;
+            margin-top: 0px;
+            text-transform: capitalize;
+            
+        }
+        h3{
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            color: #11BA4E;
+        }
+        p{
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+        }
+    }
+
+}
